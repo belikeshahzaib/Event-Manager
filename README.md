@@ -1,5 +1,4 @@
-```python
-readme_content = """# Event Management System (C Program)
+# Event Management System (C Program)
 
 A simple console-based Event Management System written in C. This program allows users to create, manage, view, and cancel events, storing the record persistently in a local text file (`event_records.txt`).
 
