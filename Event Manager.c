@@ -1,5 +1,5 @@
 #include <stdio.h>  
-#include <stdbool.h>  //for true and false
+#include <stdbool.h> 
 
 #define MAX_EVENTS 200
 
@@ -8,7 +8,7 @@ struct Event{
     char eventName[100];
     char date[20];
     char time[20];
-    int isCancelled; // 0 for active, 1 for cancelled
+    int isCancelled;
 };
 
 struct Event events[MAX_EVENTS]; 
